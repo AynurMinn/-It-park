@@ -1,0 +1,5 @@
+.header {
+    &_content {
+                  max-width: 1899px;
+              }
+}
