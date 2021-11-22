@@ -32,10 +32,9 @@ aside, nav, footer, header, section, main {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
-	font-weight: inherit;
 	line-height: inherit;
 }
+
 
 p + p {
 	margin-top: 1em;
@@ -43,6 +42,7 @@ p + p {
 
 ul {
 	list-style: none;
+	margin-top: 18px;
 }
 
 img, svg {

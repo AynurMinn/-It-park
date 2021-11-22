@@ -1,0 +1,127 @@
+
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.header-row_1{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  width: 650px;
+}
+
+.header-cont li{
+	line-height:  20px;
+}
+.header-cont h1{
+	font-size:16px;
+	font-weight:bold;
+	word-spacing:8px;
+    line-height: 26px;
+    letter-spacing: 20%;
+
+}
+.header-cont h2{
+	font-size:12px;
+	color: #000000;
+	font-weight: normal;
+}
+.header-cont h3{
+	font-size:12px;
+	color: #6A477B;
+	font-weight: normal;
+}
+.header-logo{
+    margin-left: 276px;
+
+    margin-top: 30px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 16px;
+    border-radius: 1px; 
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #6A477B;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 0px #6A477B;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 16px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+/* стрелка*/
+  i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+/* ссылка */
+.header-otel{
+  width: 180px;
+  height: 90px;
+display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center; 
+    background-color: #F4F7F8;
+}
+
+/* menu */
+menu ul
+{
+  display:flex;  
+  list-style:none;
+}
