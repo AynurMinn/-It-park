@@ -33,6 +33,7 @@ aside, nav, footer, header, section, main {
 
 h1, h2, h3, h4, h5, h6, p {
 	line-height: inherit;
+	font-family:'Gilroy',sans-serif;
 }
 
 
@@ -82,3 +83,4 @@ label {
 legend {
 	display: block;
 }
+/*html { overflow:  hidden; }
